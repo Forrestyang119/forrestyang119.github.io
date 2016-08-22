@@ -1,0 +1,285 @@
+.container {
+    width: 900px;
+}
+.about {
+    width: 820px;
+}
+.main {
+    margin-top: 80px;
+}
+.navbar-default {
+    height: 20px;
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, green); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(blue, green); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(blue, green); /* For Firefox 3.6 to 15 */
+    background: #766c93; /* Standard syntax */
+}
+footer {
+    text-align: center;
+    font-weight: 300;
+    color: #7F7F7F;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.main * {
+    font-family: 'Roboto', Helvetica, Arial, serif;
+}
+h1, h2, h3, h4 {
+    font-family: 'Roboto', Helvetica, Arial, serif;
+    font-weight: 400;
+}
+.about {
+    font-size: 15px;
+}
+
+.about img {
+  margin-top: 15px;
+  height: 400px;
+  width: 750px;
+  float: center;
+  margin-right:20px;
+  vertical-align: middle;
+}
+
+.l {
+    font-weight: 300 !important;
+}
+.m {
+    font-weight: 500 !important;
+}
+.n {
+    font-weight: 400 !important;
+}
+.b {
+    font-weight: 700 !important;
+    color: black;
+}
+.i {
+    font-style: italic !important;
+}
+span.pub_title {
+    font-weight: 700;
+    font-size: 16px;
+    color: black;
+}
+span.pub_authors {
+    font-weight: 300;
+    font-size: 14px;
+}
+span.pub_myname {
+    font-weight: 400;
+    font-size: 14px;
+}
+span.pub_type {
+    font-weight: 300;
+    color: #7F7F7F;
+    font-size: 14px;
+}
+span.pub_downloads {
+    font-weight: 300;
+    color: #7F7F7F;
+    font-size: 12px;
+}
+span.pub_award {
+    color: #de2d26;
+    font-weight: 500;
+}
+span.pub_me {
+    text-decoration: underline;
+}
+td.table_title {
+    padding-left: 20px;
+    font-weight: 700;
+    color: black;
+}
+td.table_desc {
+    padding-left: 20px;
+    font-weight: 300;
+}
+td.table_date {
+    text-align: left;
+    font-weight: 300;
+}
+
+
+td.news_title {
+    padding-left: 20px;
+}
+td.news_date {
+    font-weight: 300;
+    text-align: left;
+}
+td .news_hl {
+    font-weight: 400;
+    color: steelblue;
+}
+
+
+tr.table_item td {
+    padding-top: 10px;
+}
+.main a:link, a:visited, a:hover, a:active {
+    color: steelblue;
+    text-decoration: none;
+}
+.main a:hover {
+    color: darkblue;
+    text-decoration: underline;
+}
+a:focus {
+    outline: 0
+}
+#publications {
+    visibility: hidden;
+}
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+#home {
+    top: -80px;
+}
+
+.members {
+  width: 700px;
+}
+
+.people .heading {
+  margin-top: 1em;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.people .list {
+  width: 790px;
+  -moz-column-count: 3;
+  -webkit-column-count: 3;
+  column-count: 3;
+}
+
+.person {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 5px;
+  padding-bottom: 3px;
+  margin-bottom: 5px;
+  width: 123px;
+  height: 176px;
+  overflow: hidden;
+
+}
+.group, .group img {
+  max-width:98%;
+  max-height:98%;
+  position: relative;
+  display: inline-block;
+  vertical-align: right;
+  margin-top: 3px;
+  margin-right: 3px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.person a, .group a {
+  position: absolute;
+}
+
+.person img {
+  border-radius: 12px;
+  width: 123px;
+  opacity: 0.9;
+}
+.person img:hover {
+  opacity: 0.5;
+  box-shadow: 2px 2px 18px #8a5ed3;
+}
+
+.person .nickname {
+  position: absolute;
+  z-index: 2;
+  left: 12px;
+  bottom: 12px;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  pointer-events: none;
+}
+
+.person:hover .nickname {
+  color: #aa7ef3;
+  text-shadow: 1px 1px 3px #000;
+}
+
+.group .name {
+  margin-top: 2em;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.group .affiliation {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.group .interests {
+  margin-top: 0.5em;
+  font-size: 14px;
+}
+
+.about a.b {
+  font-weight: 600;
+}
+
+.about .lead {
+  margin-top: 1.5em;
+}
+
+.about .quote {
+  padding-right: 5px;
+  margin-bottom: 1.3em;
+  font-style: italic;
+}
+
+.about .para {
+  margin-bottom: 0.5em;
+}
+
+.about .quote,
+.about .para {
+  line-height: 24px;
+}
+
+.feature img {
+  width: 230px;
+  height: 140px;
+  float:left;
+  margin-right:10px;
+  opacity: 0.9;
+  border-radius: 16px;
+}
+
+.feature img:hover {
+  opacity: 0.6;
+  box-shadow: 2px 2px 18px #0080ff;
+}
+
+.publications img {
+  width: 230px;
+  height: 150px;
+  float:left;
+  margin-right:10px;
+  opacity: 0.9;
+  border-radius: 16px;
+}
+
+.publications img:hover {
+  opacity: 0.6;
+  box-shadow: 2px 2px 18px #0080ff;
+}
