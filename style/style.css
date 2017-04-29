@@ -256,23 +256,23 @@ a.anchor {
   line-height: 24px;
 }
 
-.feature img {
-  width: 230px;
-  height: 140px;
+.research img {
+  width: 250px;
+  height: 180px;
   float:left;
   margin-right:10px;
   opacity: 0.9;
   border-radius: 16px;
 }
 
-.feature img:hover {
+.research img:hover {
   opacity: 0.6;
   box-shadow: 2px 2px 18px #0080ff;
 }
 
 .publications img {
-  width: 230px;
-  height: 150px;
+  width: 250px;
+  height: 180px;
   float:left;
   margin-right:10px;
   opacity: 0.9;

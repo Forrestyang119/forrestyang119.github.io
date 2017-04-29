@@ -22,6 +22,7 @@ To do list:
     <!-- Custom styles for this template -->
     <link href="style/style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/fonts.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -172,13 +173,12 @@ To do list:
 
         <p style="clear:both">&nbsp;</p>
         <a class="anchor" id="research"></a>
-        <div class = "feature">
-            <h3>Features</h3>
-
+        <div class = "research">
+            <h3>Research</h3>
             <p style="clear:both">&nbsp;</p>
             <div style="text-align: justify;text-justify: inter-word;">
                 <img src="pictures/picture1.png">
-                <div style="width: 620px; float: right;">
+                <div style="width: 600px; float: right;">
                   <span class="pub_title">Trace visualization - Simple Stack</span>
                   <br />
                   <span class="pub_authors">Simply stack activities in the process executions (Figure (a) without duration and Figure (b) with duration). This is the simplest way to visualize process traces. Activities are stacked based on the occurrence time. Activity information can be accessed with mouse click on the corresponding block. This is simple and fast but user will easily get confused.</span>
@@ -189,7 +189,7 @@ To do list:
             <p style="clear:both">&nbsp;</p>
             <div style="text-align: justify;text-justify: inter-word;">
             <img src="pictures/picture2.png">
-            <div style="width: 620px; float: right;">
+            <div style="width: 600px; float: right;">
               <span class="pub_title">Trace visualization - Overlay on Timeline</span>
               <br />
               <span class="pub_authors">Overlay the process execution on the timeline (Figure). This is a very helpful way of visualizing processes. Activities are scaled based on duration and aligned with timeline based on the start and end time.
@@ -202,7 +202,7 @@ To do list:
           <p style="clear:both">&nbsp;</p>
           <div style="text-align: justify;text-justify: inter-word;">
           <img src="pictures/picture3.png">
-          <div style="width: 620px; float: right;">
+          <div style="width: 600px; float: right;">
             <span class="pub_title">Trace Visualization - Process Trace Alignment</span>
             <br />
             <span class="pub_authors">Process trace alignment (Figure (a) context-aware alignment and Figure (b) duration-aware alignment). The context-aware trace alignment algorithm is based on JC’s work. The duration-aware trace alignment algorithm was proposed in our previous research. The duration of the activity in consensus sequence of duration-aware trace alignment is the mean value of the activity duration in that column. Compared with simple stack and overlay on timeline, the aligned processes are easier for user/reader to understand their data and obtain more useful insights.</span>
@@ -213,7 +213,7 @@ To do list:
           <p style="clear:both">&nbsp;</p>
           <div style="text-align: justify;text-justify: inter-word;">
           <img src="pictures/picture4.png">
-          <div style="width: 620px; float: right;">
+          <div style="width: 600px; float: right;">
             <span class="pub_title">Simplified Visualization of Process Trace</span>
             <br />
             <span class="pub_authors">Due to the limitation of the interface space, it is usually difficult to visualize 100 sequences simultaneously on a single screen. When the trace number become 1,000.
@@ -227,7 +227,7 @@ To do list:
           <p style="clear:both">&nbsp;</p>
           <div style="text-align: justify;text-justify: inter-word;">
           <img src="pictures/picture5.png">
-          <div style="width: 620px; float: right;">
+          <div style="width: 600px; float: right;">
             <span class="pub_title">Association between Trace Cluster and Trace Attribute</span>
             <br />
             <span class="pub_authors">Through trace clustering, we can obtain clusters of traces that are similar to each other.
@@ -243,7 +243,7 @@ To do list:
           <p style="clear:both; margin-top: 100px;">&nbsp;</p>
           <div style="text-align: justify;text-justify: inter-word;">
                 <img src="pictures/Log with Error Generator Panel.jpg">
-                <div style="width: 620px; float: right;">
+                <div style="width: 600px; float: right;">
                   <span class="pub_title">Log with Error Generator Panel</span>
                   <br />
                   <span class="pub_authors"><b>Log with Error Generator Panel</b> generates event log with random deviations of commission and omission.
@@ -263,7 +263,7 @@ To do list:
             <p style="clear:both">&nbsp;</p>
             <div style="text-align: justify;text-justify: inter-word;">
                 <img src="pictures/Evaluation Panel.jpg">
-                <div style="width: 620px; float: right;">
+                <div style="width: 600px; float: right;">
                   <span class="pub_title">Evaluation Panel</span>
                   <br />
                   <span class="pub_authors"><b>Read Alignment</b> reads the alignment result, which should be exported in Trace Alignment Panel.</span>
@@ -289,7 +289,7 @@ To do list:
         <div class="publications">
             <h3>Publications</h3>
             <h4 class="l">Conference Papers</h4>
-            <img src="pictures/first.png" width="200px" height="200px" style="float:left; margin-right:10px">
+            <img src="pictures/PairwiseAlignment.png" width="200px" height="200px" style="float:left; margin-right:10px">
             <p style="width: 750px; text-align: justify; text-justify: inter-word;">
                 <a href="https://www.researchgate.net/publication/304480111_Duration-Aware_Alignment_of_Process_Traces">
                 <span class="pub_title">Duration-Aware Alignment of Process Traces</span>
@@ -298,15 +298,16 @@ To do list:
                 <br />
                 <span class="pub_authors">Sen Yang, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic and Randall S. Burd</span>
                 <br />
-                <span class="pub_type">16th Industrial Conference on Data Mining ICDM 2016, Mar 2016</span>
+                <span class="pub_type"><a href="http://www.data-mining-forum.de/">16th Industrial Conference on Data Mining ICDM 2016, Mar 2016</a></span>
                 <br />
+                <a href="documents/DurationAwareAlignment_Paper.pdf">Paper</a>&nbsp;|&nbsp;<a href="documents/DurationAwareAlignment_Slides.pdf">Slides</a>&nbsp;|&nbsp;Code (coming soon)
             </p>
 
             <p style="clear:both">&nbsp;</p>
-            <img src="pictures/second.png" width="200px" height="200px" style="float:left; margin-right:10px">
+            <img src="pictures/VITPLA1.0.jpg" width="200px" height="200px" style="float:left; margin-right:10px">
             <p style="width: 750px; text-align: justify; text-justify: inter-word;">
                 <a href="http://poloclub.gatech.edu/idea2016/papers/p130-yang.pdf">
-                <span class="pub_title">Visual Interactive Tool on Trace Alignment and Trace Attributes</span>
+                <span class="pub_title">VITPLA: Visual Interactive Tool on Process Log Analysis</span>
                 </a>
                 <br />
                 <br />
@@ -314,49 +315,38 @@ To do list:
                 <br />
                 <span class="pub_type">KDD 2016 Workshop on Interactive Data Exploration and Analytics (IDEA)</span>
                 <br />
+                <a href="documents/VITPLA_Paper.pdf">Paper</a>&nbsp;|&nbsp;<a href="documents/VITPLA_Poster.pdf">Poster</a>&nbsp;|&nbsp;Code (coming soon)
             </p>
 
             <p style="clear:both">&nbsp;</p>
             <h4 class="l">Posters</h4>
-            <img src="pictures/MBC Poster_10.21.png" width="200px" height="200px" style="float:left; margin-right:10px">
+            <img src="pictures/MBC Poster_10.21.png" width="400px" height="400px" style="float:left; margin-right:10px">
             <p style="width: 750px; text-align: justify; text-justify: inter-word;">
                 <a href="https://www.researchgate.net/publication/304480111_Duration-Aware_Alignment_of_Process_Traces">
-                <span class="pub_title">Duration-Aware Alignment of Process Traces</span>
+                <span class="pub_title">Coding Error Detection for Manually-coded Activity Logs: Case Study with Endotracheal Intubation</span>
                 </a>
                 <br />
                 <br />
-                <span class="pub_authors">Sen Yang, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic and Randall S. Burd</span>
+                <span class="pub_authors">Sen Yang, Yichen Zhou, Shuhong Chen, Alexis Sandler, Ivan Marsic and Randall S. Burd</span>
                 <br />
-                <span class="pub_type">16th Industrial Conference on Data Mining ICDM 2016, Mar 2016</span>
+                <span class="pub_type"><a href="https://chop-dbhi.ticketleap.com/2016-midatlantic-bioinformatics-conference---dbhi/details">2016 MidAtlantic Bioinformatics Conference</a></span>
                 <br />
+                <a href="resume/SenYang_04.29.17.pdf">Poster</a>&nbsp;|&nbsp;Code (coming soon)
             </p>
 
             <p style="clear:both">&nbsp;</p>
-            <img src="pictures/first.png" width="200px" height="200px" style="float:left; margin-right:10px">
+            <img src="pictures/ICHI_DC_Poster.png" width="200px" height="200px" style="float:left; margin-right:10px">
             <p style="width: 750px; text-align: justify; text-justify: inter-word;">
-                <a href="https://www.researchgate.net/publication/304480111_Duration-Aware_Alignment_of_Process_Traces">
-                <span class="pub_title">Duration-Aware Alignment of Process Traces</span>
+                <a href="http://www.ieee-ichi.org/accepted_DC.html">
+                <span class="pub_title">Automatic Workflow Capture and Analysis for Improving Trauma Resuscitation Outcomes</span>
                 </a>
                 <br />
                 <br />
-                <span class="pub_authors">Sen Yang, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic and Randall S. Burd</span>
+                <span class="pub_authors">Sen Yang</span>
                 <br />
-                <span class="pub_type">16th Industrial Conference on Data Mining ICDM 2016, Mar 2016</span>
+                <span class="pub_type">IEEE international Conference on Healthcare Informatics 2016</span>
                 <br />
-            </p>
-
-            <p style="clear:both">&nbsp;</p>
-            <img src="pictures/first.png" width="200px" height="200px" style="float:left; margin-right:10px">
-            <p style="width: 750px; text-align: justify; text-justify: inter-word;">
-                <a href="https://www.researchgate.net/publication/304480111_Duration-Aware_Alignment_of_Process_Traces">
-                <span class="pub_title">Duration-Aware Alignment of Process Traces</span>
-                </a>
-                <br />
-                <br />
-                <span class="pub_authors">Sen Yang, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic and Randall S. Burd</span>
-                <br />
-                <span class="pub_type">16th Industrial Conference on Data Mining ICDM 2016, Mar 2016</span>
-                <br />
+                <a href="documents/ICHI_DC_PosterAbstract.pdf">Abstract</a>&nbsp;|&nbsp;<a href="documents/ICHI_DC_Poster.pdf">Poster</a>&nbsp;|&nbsp;Code (coming soon)
             </p>
         </div>
 
