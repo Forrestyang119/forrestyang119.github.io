@@ -1,4 +1,5 @@
 % for untracked files
+git add style/style.css
 git add -A 
 git commit -am "first commit in workstation"
 git push -u origin master
