@@ -283,3 +283,10 @@ a.anchor {
   opacity: 0.6;
   box-shadow: 2px 2px 18px #0080ff;
 }
+
+.work img {
+  height: 30px;
+  float:right;
+  margin-right:10px;
+  opacity: 0.9;
+}
