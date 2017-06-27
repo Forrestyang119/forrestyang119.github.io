@@ -3,3 +3,7 @@ git add style/style.css
 git add -A 
 git commit -am "first commit in workstation"
 git push -u origin master
+
+
+% git checkout ./   % abort the local changes
+% git pull
