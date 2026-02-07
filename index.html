@@ -61,8 +61,8 @@ To do list:
             </p>
 
             <p style="margin-top:14px; float: center; text-align: justify; text-justify: inter-word;">
-            Previously, I worked at Waymo, where I led the transition of Waymo’s driving log evaluation pipelines from rule-based systems to
-            learning-based models built on large-scale representation learning. Before that, I was a
+            Previously, I worked at Waymo, where I led evaluations of Waymo Driver models using large-scale representation and foundation models for driving log understanding.
+            Before that, I was a
             Senior Machine Learning Engineer at LinkedIn, building large-scale personalization and
             feed ranking systems.
             </p>
@@ -132,17 +132,44 @@ To do list:
             <h3>Research</h3>
             <div style="text-align: justify;text-justify: inter-word;">
               <div style="width: 100%;">
-                <span class="pub_title">Large-scale Personalized Retrieval</span><br />
+                <span class="pub_title">Coding Agent Development</span><br />
                 <span class="pub_authors">
-                  My current work focuses on large-scale personalized retrieval systems, representation learning,
-                  and end-to-end optimization under strict latency and reliability constraints.
+                  I build coding agents at Google for both first-party and third-party developer
+                  workflows. My work focuses on agent architectures that integrate planning, code generation,
+                  tool use, and verification, with an emphasis on robustness, evaluation, and real-world
+                  developer productivity.
                 </span>
               </div>
             </div>
+            <p style="clear:both">&nbsp;</p>
             <div style="text-align: justify;text-justify: inter-word;">
-                <img src="pictures/ProcessMining.png">
+              <div style="width: 100%;">
+                <span class="pub_title">Large-scale Personalized Ranking and Retrieval Models</span><br />
+                <span class="pub_authors">
+                  I work on large-scale personalized ranking and retrieval models across both feed and search
+                  settings. At LinkedIn, I built and scaled home feed ranking models, learning user and content
+                  representations and validating improvements through online A/B experimentation. At Google
+                  Search, I focus on building personalized retrieval channels, designing representation learning
+                  pipelines that optimize end-to-end relevance under strict latency and production constraints.
+                </span>
+              </div>
+            </div>
+            <p style="clear:both">&nbsp;</p>
+            <div style="text-align: justify;text-justify: inter-word;">
+              <div style="width: 100%;">
+                <span class="pub_title">Waymo Driver Evaluation with Foundation Models</span><br />
+                <span class="pub_authors">
+                  I led learning-based evaluation efforts for Waymo Driver models, leveraging large-scale
+                  representation learning and foundation models to replace brittle rule-based metrics and
+                  improve robustness and generalization in driving log understanding.
+                </span>
+              </div>
+            </div>
+            <p style="clear:both">&nbsp;</p>
+            <div style="text-align: justify;text-justify: inter-word;">
+                <img src="pictures/ECE_Poster_Final.png">
                 <div style="width: 600px; float: right;">
-                  <span class="pub_title">Process / Workflow Mining</span>
+                  <span class="pub_title">Process Mining (a.k.a. Workflow Mining)</span>
                   <br />
                   <span class="pub_authors"><a href="https://en.wikipedia.org/wiki/Process_mining">Process mining</a> aims to discover, monitor and improve real world processes by extracting knowledge from activity logs. There are three main problems in process mining, process discovery, conformance checking and model enhancement. Process discovery takes activity logs as input and produce data-driven graphical models. Conformance checking tries to align the activity logs with process models to highlight the differences and commonalities. Model enhancement repairs the process model with activity logs. My research focused on developing new techniques and algorithms to address the above problems. In addition, I explored a new research direction, the process recommender system (PRS). PRS aims to provide people with real-time step-by-step recommendations on real world processes. 
                   </span>
@@ -154,9 +181,9 @@ To do list:
             <div style="text-align: justify;text-justify: inter-word;">
             <img src="pictures/VITPLA2.0.jpg">
             <div style="width: 600px; float: right;">
-              <span class="pub_title">Data Visualization (spcial focus on Processes Logs)</span>
+              <span class="pub_title">Workflow Data Visual Analytics</span>
               <br />
-              <span class="pub_authors">Limited amount of applications or packages are available for process logs (or called temporal event sequences). The existing data visual analytics tools also have difficulties in visualizing big process data. My goal was to provide user-friendly, easy-interpretable and machine learning based visual interactive tools for process anlysis. Working together with the students I supervised, we have developed two applications, VIT-PLA 1.0 and VIT-PLA 2.0. VIT-PLA stands for Visual Interactive Tool for Process Log Analysis. The 1.0 version is a Java-based application (Java, JavaSwing). The 2.0 version is web-based application (JSP, D3.js).</span>
+              <span class="pub_authors">Workflow event logs (temporal activity sequences) are challenging to analyze and interpret at scale. I focused on building user-friendly, machine learning-driven visual analytics tools to support interactive workflow exploration and diagnosis. Working with students I supervised, we developed VIT-PLA 1.0 (Java/Java Swing) and VIT-PLA 2.0 (web-based with JSP and D3.js) for workflow data analysis.</span>
               <br />
             </div>
           </div>
@@ -165,9 +192,18 @@ To do list:
           <div style="text-align: justify;text-justify: inter-word;">
           <img src="pictures/DeepLearningTimeSeries.png">
           <div style="width: 600px; float: right;">
-            <span class="pub_title">AutoML: Deep Feature Extraction from Time Series</span>
+            <span class="pub_title">Deep Representation Learning for Time Series (Bell Labs)</span>
             <br />
-            <span class="pub_authors">As my research topic in Bell Labs, I pursued deep learning techniques for automated feature extraction from time series. Traditional time series feature learning relies hand-designed features, e.g., peaks, trend, max, FFT, CWT, ARIMA. Selection of these features need human intuition and domian knowledge. Such feature leaning process is labor intensive and biased to human expectations. We are develop deep learning techniques to learn deep time series features automatically. </span>
+            <span class="pub_authors">
+              During my Bell Labs research internship, I studied deep representation learning for time-series
+              data using RNN-based autoencoders. I identified key failure modes where low reconstruction error
+              does not translate to strong downstream classification performance, especially under oscillatory
+              patterns and limited training data.
+              I explored architectural improvements inspired by ensemble and inception-style designs, and
+              demonstrated that combining deep representations with statistical features (e.g., TSFRESH)
+              yields more robust and discriminative representations. This work emphasized expert-free,
+              scalable feature learning for time-series analytics.
+            </span>
             <br />
             </div>
           </div>
@@ -190,52 +226,26 @@ To do list:
         <div class="publications">
             <h3>Publications</h3>
             <p>
-              Full publication list on
+              Selected publications are listed below. A complete list is available on
               <a href="https://scholar.google.com/citations?user=bQ3SkYAAAAAJ&hl=en">Google Scholar</a>.
             </p>
-            <p style="clear:both">&nbsp;</p>
-            <img src="pictures/AGSS.png" width="200px" height="200px" style="float:left; margin-right:10px">
-            <p style="width: 750px; text-align: justify; text-justify: inter-word;">
-                <a href="http://dml.cs.byu.edu/chs/ichi2017/">
-                <span class="pub_title">Medical Workflow Modeling Using Alignment-Guided State-Splitting HMM</span>
-                </a>
-                <br />
-                <br />
-                <span class="pub_authors"><b>Sen Yang</b>, Moliang Zhou, Shuhong Chen, Xin Dong, Omar Ahmed, Randall S. Burd, Ivan Marsic</span>
-                <br />
-                <span class="pub_type"><a href="http://dml.cs.byu.edu/chs/ichi2017/">IEEE International Conference on Healthcare Informatics (ICHI), 2017</a></span>
-                <br />
-            </p>
-
-            <p style="clear:both">&nbsp;</p>
-            <img src="pictures/ECE_Poster_Final.png" width="200px" height="200px" style="float:left; margin-right:10px">
-            <p style="width: 750px; text-align: justify; text-justify: inter-word;">
-                <a href="http://www.kdd.org/kdd2017/">
-                <span class="pub_title">A Data-driven Process Recommender Framework</span>
-                </a>
-                <br />
-                <br />
-                <span class="pub_authors"><b>Sen Yang</b>, Xin Dong, Leilei Sun, Yichen Zhou, Richard A. Farneth, Hui Xiong, Randall S. Burd, Ivan Marsic</span>
-                <br />
-                <span class="pub_type"><a href="http://www.kdd.org/kdd2017/">Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2017</a></span>
-                <br />
-                <a href="http://www.kdd.org/kdd2017/papers/view/a-data-driven-process-recommender-framework">Paper</a> &nbsp;|&nbsp; <a href="https://www.youtube.com/watch?v=EQN3AYSAk4w">Promotion Video</a>
-            </p>
-
-            <p style="clear:both">&nbsp;</p>
-            <img src="pictures/VITPLA1.0.jpg" width="200px" height="200px" style="float:left; margin-right:10px">
-            <p style="width: 750px; text-align: justify; text-justify: inter-word;">
-                <a href="http://poloclub.gatech.edu/idea2016/papers/p130-yang.pdf">
-                <span class="pub_title">VITPLA: Visual Interactive Tool on Process Log Analysis</span>
-                </a>
-                <br />
-                <br />
-                <span class="pub_authors"><b>Sen Yang</b>, Xin Dong, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic and Randall S. Burd</span>
-                <br />
-                <span class="pub_type"><a href="http://poloclub.gatech.edu/idea2016/">KDD 2016 Workshop on Interactive Data Exploration and Analytics (IDEA)</a></span>
-                <br />
-                <a href="documents/VITPLA_Paper.pdf">Paper</a>
-            </p>
+            <ol style="padding-left: 22px;">
+                <li style="margin-bottom: 10px;">Keyi Li, Mary S. Kim, Wenjin Zhang, <strong>Sen Yang</strong>, Genevieve J. Sippel, Aleksandra Sarcevic, Randall S. Burd, Ivan Marsic. <br /><i>Human Intention Recognition for Trauma Resuscitation: An Interpretable Deep Learning Approach for Medical Process Data</i>. Journal of Biomedical Informatics, 161:104767, 2025.</li>
+                <li style="margin-bottom: 10px;">Keyi Li, <strong>Sen Yang</strong>, Travis M. Sullivan, Randall S. Burd, Ivan Marsic. <br /><i>ProcessGAN: Generating Privacy-Preserving Time-Aware Process Data with Conditional Generative Adversarial Nets</i>. ACM Transactions on Knowledge Discovery from Data, 18(9):1-31, 2024.</li>
+                <li style="margin-bottom: 10px;">Wenjin Zhang, Keyi Li, <strong>Sen Yang</strong>, Sifan Yuan, Ivan Marsic, Genevieve J. Sippel, Mary S. Kim, Randall S. Burd. <br /><i>Focusing on What Matters: Fine-grained Medical Activity Recognition for Trauma Resuscitation via Actor Tracking</i>. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 4950-4958, 2024.</li>
+                <li style="margin-bottom: 10px;">Wenjin Zhang, Keyi Li, <strong>Sen Yang</strong>, Chenyang Gao, Wanzhao Yang, Sifan Yuan, Ivan Marsic. <br /><i>MaskMatch: Boosting Semi-supervised Learning through Mask Autoencoder-driven Feature Learning</i>. arXiv preprint arXiv:2405.06227, 2024.</li>
+                <li style="margin-bottom: 10px;">Keyi Li, <strong>Sen Yang</strong>, Chenyang Gao, Ivan Marsic. <br /><i>Rutgers Multimedia Image Processing Lab at SemEval-2023 Task 1: Text-Augmentation-based Approach for Visual Word Sense Disambiguation</i>. Proceedings of the 17th International Workshop on Semantic Evaluation (SemEval), pp. 1483-1490, 2023.</li>
+                <li style="margin-bottom: 10px;">Xin Dong, Yaxin Zhu, Yupeng Zhang, Zuohui Fu, Dongkuan Xu, <strong>Sen Yang</strong>, Gerard de Melo. <br /><i>Leveraging Adversarial Training in Self-Learning for Cross-Lingual Text Classification</i>. Proceedings of the 43rd ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR), pp. 1541-1544, 2020.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Aleksandra Sarcevic, Richard A. Farneth, Shuhong Chen, Omar Z. Ahmed, Ivan Marsic, Randall S. Burd. <br /><i>An Approach to Automatic Process Deviation Detection in a Time-Critical Clinical Process</i>. Journal of Biomedical Informatics, 85:155-167, 2018.</li>
+                <li style="margin-bottom: 10px;">Wangsu Hu, Zijun Yao, <strong>Sen Yang</strong>, Shuhong Chen, Peter J. Jin. <br /><i>Discovering Urban Travel Demands through Dynamic Zone Correlation in Location-based Social Networks</i>. European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD), pp. 88-104, 2018.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Weiqing Ni, Xin Dong, Shuhong Chen, Richard A. Farneth, Aleksandra Sarcevic, Ivan Marsic, Randall S. Burd. <br /><i>Intention Mining in Medical Process: A Case Study in Trauma Resuscitation</i>. IEEE International Conference on Healthcare Informatics (ICHI), pp. 36-43, 2018.</li>
+                <li style="margin-bottom: 10px;">Ran He, <strong>Sen Yang</strong>, Jingyuan Yang, Jin Cao. <br /><i>Automated Mining of Approximate Periodicity on Numeric Data: A Statistical Approach</i>. ACM International Conference on Compute and Data Analysis, 2018.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Moliang Zhou, Shuhong Chen, Xin Dong, Omar Ahmed, Ivan Marsic, Randall S. Burd. <br /><i>Medical Workflow Modeling Using Alignment-Guided State-Splitting HMM</i>. IEEE International Conference on Healthcare Informatics (ICHI), 2017.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Xin Dong, Leilei Sun, Yichen Zhou, Richard A. Farneth, Hui Xiong, Randall S. Burd, Ivan Marsic. <br /><i>A Data-driven Process Recommender Framework</i>. ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD), pp. 2111-2120, 2017.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Xin Dong, Moliang Zhou, Xinyu Li, Shuhong Chen, Rachel Webman, Aleksandra Sarcevic, Ivan Marsic, Randall S. Burd. <br /><i>VIT-PLA: Visual Interactive Tool for Process Log Analysis</i>. KDD Workshop on Interactive Data Exploration and Analytics (IDEA), 2016.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>, Moliang Zhou, Rachel Webman, JaeWon Yang, Aleksandra Sarcevic, Ivan Marsic, Randall S. Burd. <br /><i>Duration-Aware Alignment of Process Traces</i>. Industrial Conference on Data Mining (ICDM), pp. 379-393, 2016.</li>
+                <li style="margin-bottom: 10px;"><strong>Sen Yang</strong>. <br /><i>Applied Process Mining, Recommendation, and Visual Analytics</i>. Ph.D. Thesis, Rutgers University, 2019.</li>
+            </ol>
         </div>
 
         <p style="clear:both">&nbsp;</p>
